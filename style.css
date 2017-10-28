@@ -39,7 +39,7 @@ section.module.parallax {
 section.module.parallax h1 {
   color: rgba(255, 255, 255, 0.8);
   font-size: 30px;
-  font-family: "Roboto";
+  font-family: 'Armata';
   line-height: 140px;
   text-align: center;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
@@ -47,33 +47,33 @@ section.module.parallax h1 {
 
 section.module.parallax p {
   font-size: 18px;
-  font-family: "Roboto";
-  color: rgba(255, 255, 255, 0.8);
+  font-family: "Raleway";
+  color: #606860;
   text-align: center;
 }
 
 .nicer-image {
-  border-radius: 30px;
-  width: 150px;
+  border-radius: 200px;
+  width: 300px;
 }
 
 .placeholder-image {
-  width: 250px;
-  height: 150px;
+  width: 450px;
+  height: 250px;
 
 }
 
 section.module.parallax-1 {
-  background-image: url("https://images.unsplash.com/25/peak.jpg?crop=entropy&fit=crop&fm=jpg&h=650&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1375");
+  background: #FFFFF0;
 }
 section.module.parallax-2 {
-  background-image: url("https://images.unsplash.com/photo-1428709671697-959dbd39a3ac?crop=entropy&fit=crop&fm=jpg&h=650&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1375");
+  background: #F0F0F0;
 }
 section.module.parallax-3 {
-  background-image: url("https://images.unsplash.com/photo-1415638424454-36a7d12ae941?crop=entropy&fit=crop&fm=jpg&h=650&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1375");
+  background: #FFFFF0;
 }
 section.module.parallax-4 {
-  background-image: url("https://images.unsplash.com/photo-1465268920654-8c0ce0ab726c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=fe6a0494e665ea169d2d1d420ddc3bb4");
+  background: #F0F0F0;
 }
 @media all and (min-width: 600px) {
 
