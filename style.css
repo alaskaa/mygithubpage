@@ -24,6 +24,7 @@ body {
 
 .navbar-nav {
   width:100%;
+  background: #D5E5EB;
 }
 figcaption {
   font-size: 20px;
@@ -52,6 +53,20 @@ section.module.parallax p {
   text-align: center;
 }
 
+section.module.parallax h2 {
+  font-size: 25px;
+  font-family: "Armata";
+  color: #606860;
+  text-align: center;
+}
+
+section.module.parallax ul {
+  font-size: 18px;
+  font-family: "Raleway";
+  color: #606860;
+  // text-align center;
+}
+
 .nicer-image {
   border-radius: 200px;
   width: 300px;
@@ -75,6 +90,12 @@ section.module.parallax-3 {
 section.module.parallax-4 {
   background: #F0F0F0;
 }
+section.module.parallax-5 {
+  background: #FFFFFF;
+}
+section.module.parallax-6 {
+  background: #F0F0F0;
+}
 @media all and (min-width: 600px) {
 
   section.module p {
@@ -86,11 +107,16 @@ section.module.parallax-4 {
 }
 @media all and (min-width: 960px) {
   section.module.parallax h1 {
-    font-size: 60px;
+    font-size: 55px;
   }
 }
 
 .footer-p {
 font-family: "Raleway";
 color: #337ab7;
+background: #D5E5EB;
+}
+
+.footer-navigation {
+  background: #D5E5EB;
 }
