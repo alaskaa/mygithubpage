@@ -58,19 +58,19 @@ section.module.parallax p {
 }
 
 .placeholder-image {
-  width: 450px;
-  height: 250px;
+  width: 100%;
+  height: auto;
 
 }
 
 section.module.parallax-1 {
-  background: #FFFFF0;
+  background: #FFFFFF;
 }
 section.module.parallax-2 {
   background: #F0F0F0;
 }
 section.module.parallax-3 {
-  background: #FFFFF0;
+  background: #FFFFFF;
 }
 section.module.parallax-4 {
   background: #F0F0F0;
@@ -91,6 +91,6 @@ section.module.parallax-4 {
 }
 
 .footer-p {
-font-family: "Roboto";
+font-family: "Raleway";
 color: #337ab7;
 }
