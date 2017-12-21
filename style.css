@@ -78,6 +78,10 @@ section.module.parallax ul {
 
 }
 
+.icon-size {
+  font-size: 40px;
+}
+
 section.module.parallax-1 {
   background: #FFFFFF;
 }
