@@ -25,6 +25,8 @@ body {
 .navbar-nav {
   width:100%;
   background: #D5E5EB;
+  font-weight: normal;
+  font-size: 16pt;
 }
 figcaption {
   font-size: 20px;
