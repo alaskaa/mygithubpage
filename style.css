@@ -3,51 +3,26 @@ body {
   color: rgba(255, 255, 255, 0.8);
 }
 
-
-.sticky-nav,
-.main {
-  position: fixed;
-}
-
-.sticky-nav {
-  background: #D5E5EB;
-  height: 50px;
-  width: 100%;
-  color: #B4D1DB;
-  display: inline-block;
-  z-index: 2;
-}
-
-.nav>li {
-  float:left;
-}
-
-.navbar-nav {
-  width:100%;
-  background: #D5E5EB;
-  font-weight: normal;
-  /*font-size: 16pt;*/
-}
-
 figcaption {
   font-size: 20px;
 }
 
 section.module.parallax {
-  min-height: 700px;
+  min-height: 650px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  padding-bottom: 10px;
 }
 
 section.module.parallax h1 {
   color: rgba(255, 255, 255, 0.8);
   font-size: 30px;
-  font-family: 'Armata';
+  font-family: 'Nothing You Could Do', cursive;
   line-height: 140px;
   text-align: center;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.45);
 }
 
 section.module.parallax p {
@@ -79,16 +54,47 @@ section.module.parallax ul {
 .placeholder-image {
   width: 100%;
   height: auto;
-
 }
 
 .icon-size {
   font-size: 40px;
 }
 
-section.module.parallax-1 {
-  background: #FFFFFF;
+.footer-color {
+  color: grey;
 }
+
+hr {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.box {
+  border-style: dashed;
+  border-color: grey;
+  margin: 0;
+  padding: 10px;
+
+}
+
+section.module.parallax-1 {
+  background-image: url("images/cam-adams-38309.jpg");
+}
+
+section.module.parallax-1 h1 {
+  font-family: 'Nothing You Could Do', cursive;
+  color: white;
+  font-size: 45px;
+}
+
+section.module.parallax-1 p {
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 section.module.parallax-2 {
   background: #F0F0F0;
 }
@@ -101,9 +107,39 @@ section.module.parallax-4 {
 section.module.parallax-5 {
   background: #FFFFFF;
 }
-
 section.module.parallax-6 {
   background: #F0F0F0;
+}
+
+section.module.parallax-5 a:hover {
+  text-decoration: none;
+}
+
+section.module.parallax-5 a:active {
+  text-decoration: none;
+}
+
+.typewriter {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation:
+    typing 4s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
 }
 
 @media all and (min-width: 600px) {
@@ -119,14 +155,4 @@ section.module.parallax-6 {
   section.module.parallax h1 {
     font-size: 55px;
   }
-}
-
-.footer-p {
-font-family: "Raleway";
-color: #337ab7;
-background: #D5E5EB;
-}
-
-.footer-navigation {
-  background: #D5E5EB;
 }
