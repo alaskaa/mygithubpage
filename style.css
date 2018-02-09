@@ -4,7 +4,13 @@ body {
 }
 
 figcaption {
-  font-size: 20px;
+  font-size: 23px;
+  text-align: center;
+  font-weight: 500;
+}
+
+.header-p {
+  font-weight: bold;
 }
 
 section.module.parallax {
@@ -21,29 +27,30 @@ section.module.parallax h1 {
   font-size: 30px;
   font-family: 'Nothing You Could Do', cursive;
   line-height: 140px;
-  text-align: center;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.45);
+  text-align: center;
 }
 
 section.module.parallax p {
   font-size: 18px;
   font-family: "Raleway";
   color: #606860;
-  text-align: center;
 }
 
 section.module.parallax h2 {
   font-size: 25px;
   font-family: "Armata";
   color: #606860;
-  text-align: center;
 }
 
 section.module.parallax ul {
   font-size: 18px;
   font-family: "Raleway";
   color: #606860;
-  // text-align center;
+}
+
+.centered-text {
+  text-align: center;
 }
 
 .nicer-image {
@@ -119,27 +126,8 @@ section.module.parallax-5 a:active {
   text-decoration: none;
 }
 
-.typewriter {
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
-  animation:
-    typing 4s steps(40, end),
-    blink-caret .75s step-end infinite;
-}
-
-/* The typing effect */
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
-}
-
-/* The typewriter cursor effect */
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
+section.module.parallax-5 a:visited {
+  text-decoration: none;
 }
 
 @media all and (min-width: 600px) {
