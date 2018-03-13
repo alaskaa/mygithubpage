@@ -54,6 +54,11 @@ section.module.parallax ul {
   text-align: center;
 }
 
+.devicons-pad {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
 .card {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
@@ -96,6 +101,7 @@ section.module.parallax ul {
 .footer-color {
   color: grey;
 }
+
 
 hr {
   margin-top: 1em;
