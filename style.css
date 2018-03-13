@@ -59,6 +59,7 @@ section.module.parallax ul {
   transition: 0.3s;
   width: 100%;
   margin: auto;
+  height: 100%;
 }
 
 .card:hover {
