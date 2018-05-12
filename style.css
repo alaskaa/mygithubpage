@@ -1,5 +1,5 @@
 body {
-  font-family: "Roboto";
+  font-family: 'Roboto';
   color: rgba(255, 255, 255, 0.8);
 }
 
@@ -7,6 +7,17 @@ figcaption {
   font-size: 23px;
   text-align: center;
   font-weight: 500;
+}
+
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
 }
 
 .header-p {
@@ -33,19 +44,19 @@ section.module.parallax h1 {
 
 section.module.parallax p {
   font-size: 18px;
-  font-family: "Raleway";
+  font-family: 'Raleway';
   color: #606860;
 }
 
 section.module.parallax h2 {
   font-size: 25px;
-  font-family: "Armata";
+  font-family: 'Armata';
   color: #606860;
 }
 
 section.module.parallax ul {
   font-size: 18px;
-  font-family: "Raleway";
+  font-family: 'Raleway';
   color: #606860;
 }
 
@@ -60,7 +71,7 @@ section.module.parallax ul {
 }
 
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   width: 100%;
   margin: auto;
@@ -68,7 +79,7 @@ section.module.parallax ul {
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 .padded-text {
@@ -102,7 +113,6 @@ section.module.parallax ul {
   color: grey;
 }
 
-
 hr {
   margin-top: 1em;
   margin-bottom: 1em;
@@ -115,11 +125,10 @@ hr {
   border-color: grey;
   margin: 0;
   padding: 10px;
-
 }
 
 section.module.parallax-1 {
-  background-image: url("images/rsz_cam-adams-38309.jpg");
+  background-image: url('images/rsz_cam-adams-38309.jpg');
 }
 
 section.module.parallax-1 h1 {
@@ -135,19 +144,19 @@ section.module.parallax-1 p {
 }
 
 section.module.parallax-2 {
-  background: #F0F0F0;
+  background: #f0f0f0;
 }
 section.module.parallax-3 {
-  background: #FFFFFF;
+  background: #ffffff;
 }
 section.module.parallax-4 {
-  background: #F0F0F0;
+  background: #f0f0f0;
 }
 section.module.parallax-5 {
-  background: #FFFFFF;
+  background: #ffffff;
 }
 section.module.parallax-6 {
-  background: #F0F0F0;
+  background: #f0f0f0;
 }
 
 section.module.parallax-5 a:hover {
@@ -163,7 +172,6 @@ section.module.parallax-5 a:visited {
 }
 
 @media all and (min-width: 600px) {
-
   section.module p {
     font-size: 20px;
   }
