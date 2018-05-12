@@ -121,13 +121,6 @@ hr {
   margin-right: 5%;
 }
 
-.box {
-  border-style: dashed;
-  border-color: grey;
-  margin: 0;
-  padding: 10px;
-}
-
 section.module.parallax-1 {
   background-image: url('images/rsz_cam-adams-38309.jpg');
 }
